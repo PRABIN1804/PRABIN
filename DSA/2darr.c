@@ -5,13 +5,13 @@ void display(int row,int col,int arr[][col])
     {
     for(int j=0; j<col; j++)
     {
-    printf("%d\n",arr[row][col]);
+    printf("%d\n",arr[i][j]);
     }
     }
 };
 int main()
 {
-int arr[2][2]={(1,2),(3,4)};
+int arr[][2]={1,2,3,4};
 int row=2,col=2;
 display(2,2,arr);
 return 0;
