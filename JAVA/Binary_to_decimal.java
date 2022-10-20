@@ -1,11 +1,11 @@
-import javax.swing.text.DefaultEditorKit.PasteAction;
+
 
 public class Binary_to_decimal 
 {
    public static void main(String []args)
    {
     //binary number
-    long num = 110110111;
+    long num = 110110;
     //call method by passing the binary number
     int decimal = convertBinaryToDecimal(num);
     
