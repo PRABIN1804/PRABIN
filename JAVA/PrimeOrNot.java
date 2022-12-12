@@ -18,10 +18,10 @@ public class PrimeOrNot
             break;
          }
       }
-      
       if(count==0)
          System.out.println("\nIt is a Prime Number.");
       else
          System.out.println("\nIt is not a Prime Number.");
+         sc.close();
    }
 }
