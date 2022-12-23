@@ -1,8 +1,16 @@
 /* syntax of css- selector  property  value
-                   p      { color:   red;} */
+                     p      { color:   red;} */
 
 
          P{
             color: chartreuse;
          }
                
+                  /* TUT-#15(SELECTOR IN CSS) */
+
+ /* Selector are 4 types in CSS
+  1-CSS element selector
+  2-CSS id selector
+  3-CSS class selector 
+  4-The CSS grouping selector
+   */
