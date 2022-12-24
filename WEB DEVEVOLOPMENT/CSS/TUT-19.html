@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIGHT,WIDTH,BORDERS AND BACKGROUNDS</title>
+    <STYLE>
+        #Firstpara{
+            background-color: red;
+            height: 80px;
+            width:200px;
+            border: 5px solid green;
+            /* border-width: 5px;
+            border-color: green;
+            border-style: solid; */
+            border-radius: 11px;
+        }
+
+        #Secondpara{
+            background-color: rgb(47, 0, 255);
+            height: 80px;
+            width:200px;
+            border-top: 5px solid rgb(211, 163, 18);
+            border-right: 5px solid rgb(217, 18, 18);
+            border-left: 5px solid rgb(231, 34, 34);
+            border-bottom: 5px solid rgb(230, 182, 24);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 6px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 6px;/* border size  can be different */  
+        }
+
+        #Thirdpara{
+            height:80px;
+            width:200px;
+            background-image: url('https://wallup.net/nature-clouds-sky-dark-landscape-rock/'); /* any type image URL*/
+            border: 5px solid red;
+            background-repeat: no-repeat; /* we can access here for REPEATAION of image*/
+            background-position: /*center*/ 192px 34px;
+            background-position: top top;
+            background-position: top center;/* we write right top, left top*/
+            background-position: bottom center;/* we write right bottom, left bottom*/
+        }
+    </STYLE>                
+</head>
+<body>
+    <h3>This is heading </h3>
+    <p id="Firstpara">This is a paragraph</p>
+
+    <h3>This is second heading </h3>
+    <p id="Secondpara">This is my second paragraph</p>
+
+    <h3>This is Third heading </h3>
+    <p id="Thirdpara">This is my Third paragraph</p>
+</body>
+</html>

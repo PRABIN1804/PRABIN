@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+     *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+     }
+     body{
+        background-color: chartreuse;
+     }
+
+       .container{
+        background-color: aqua;
+        border:3px solid red;
+        /* we can set MARGIN/PADDING for top,bottom, left and right like this  */
+        /*padding-top: 79px; */    /* margin-top: 3px;*/
+        /* padding bottom: 79px*/   /* margin-left: 35px;*/
+        /* padding-left: 79px;*/    /* margin-right: 30px;*/
+        /* padding right: 79px*/    /* margin-bottom: 8px;*/
+
+
+        padding: 25PX 55PX 8PX 80px; /* PADDING/MARGIN top right bottom left;*/
+        padding: 34px 19px; /* padding: y(top/bottom) x(left/right)*/
+        padding: 55px; 
+        margin: 35px;
+        border-radius: 25px;
+        
+
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>THIS IS MY HEADING </h3>
+        <P id="First">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit molestiae deleniti, illo fuga reprehenderit praesentium modi distinctio recusandae officiis animi nemo voluptas delectus explicabo dolores nulla, autem hic est.</P>
+    </div>
+
+    <div class="container">
+        <h3>THIS IS MY SECOND HEADING </h3>
+        <P id="Second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit molestiae deleniti, illo fuga reprehenderit praesentium modi distinctio recusandae officiis animi nemo voluptas delectus explicabo dolores nulla, autem hic est.</P>
+    </div>
+
+    <div class="container">
+        <h3>THIS IS MY THIRD HEADING </h3>
+        <P id="Third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit molestiae deleniti, illo fuga reprehenderit praesentium modi distinctio recusandae officiis animi nemo voluptas delectus explicabo dolores nulla, autem hic est.</P>
+    </div>
+
+</body>
+</html>
