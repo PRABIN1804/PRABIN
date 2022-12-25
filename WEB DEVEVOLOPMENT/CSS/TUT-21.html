@@ -5,45 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALIGNMENT</title>
+     <link rel="stylesheet" href="xyz"> <!--anything of font style -->
     <style>
         *{
+            box-sizing:border-box ;
 
+        }
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .container{
             width: 900px;
             border: 3px solid lightgreen;
-            margin: auto;
+            background-color: brown;
+            margin: 33px auto;
         }
         .item{
             border: 3px solid red;
             margin: 12px 3px;
             padding: 12px 3px;
-            background-color: aqua;
+            background: aqua;
         }
         #fruit{
-            float:left;
-            width: 50%;
+            float:right;
+            width: 48%;
+            background-color: chartreuse;
         }
-        #statinoary{
+        #computer{
             float: left;
-            width: 50%;
+            width: 48%;
+            background-color: chartreuse;
         }
-        #
+        #Stationary{
+            clear: both;
+            clear: left;
+            /* float: left; */
+            width: 100%;
+    
+        }
+        p,h3{
+          /*text-align: right;
+            text-align: left;
+            text-align: center;*/
+            text-align: justify;
+        }
+        h1{
+            margin: 23px auto;
+            width: 455px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="fruits" class="item">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruit" class="item">
             <h3>FRUITS</h3>
-        <p id="friutspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere.</p>
+        <p id="friutpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere.</p>
         </div>
         <div id="computer" class="item">
             <h3>COMPUTER</h3>
             <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere.</p>
         </div>
-        <div id="stationarypara" class="item">
+        <div id="stationary" class="item">
             <h3>STATIONARY</h3>
-            <p id="staionarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere.</p>
+            <p id="staionarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt quas sequi dolores fugiat dolor sapiente, blanditiis qui officiis pariatur!</p>
+        </div>
+    </div id="glasses" class="item">
+            <h3>GLASSES</h3>
+            <p id=glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sunt modi deleniti, quis, molestiae quasi nisi eos tenetur iusto ad voluptates? Voluptatibus illum nam veritatis cupiditate voluptas possimus rem facere.</p>
         </div>
     </div>
 </body>
