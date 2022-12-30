@@ -1,0 +1,49 @@
+<!-- WHAT IS RESPONSIVE DESIGN ?
+->Endless new resolution and devices are dificult to support separately for a web developer.
+->Responsive design is a way for a web developer to make his website adapt to all the devices and resolution.
+->Responsive designis a necessity and not a luxury anymore! -->
+  
+<!-- VARIOUS WAY TO ACHIEVE RESPONSIVE DESIGN
+1.Setting up the viewport.
+2.Use max-width/max-height. 
+3.Using CSS media queries.
+4.Using rem/vh/vw units over pixels. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+    <style>
+        html{
+            font-size: 25px;
+        }
+        .container{
+            /* height: 350px; */
+            height: 100vh;
+            width: 100vw;
+            /* width: 400px; */
+            font-size: 10px;
+            border: 2px solid red;
+        }
+        h3{
+            text-align: center;
+        }
+        #First{
+            font-size: 3em;
+            padding: 3em;
+        } #Second{
+            font-size: 3rem;
+            padding: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 id="First">This is First heading</h3>
+        <h3 id="Second">This is Second heading</h3>
+        <h3 id="Third">This is Third heading</h3>
+    </div>
+</body>
+</html>
