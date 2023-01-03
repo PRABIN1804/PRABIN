@@ -1,7 +1,7 @@
 // WHAT IS JAVASCRIPT?
 // ->JAVASCRIPT is a client side scripting language. 
 // ->It is used to make web pages .
-// ->It is ysed to programmatically perform actions within the page. 
+// ->It is used to programmatically perform actions within the page. 
 // ->When JAVASCRIPT was created,it was initially  called "LiveScript". 
 // ->But java was a very popular language at that time ,so it was decided that positioning a language as a "younger brother" of java would HTMLTemplateElement. 
 
